@@ -1,0 +1,580 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+body{
+    font-family:sans-serif;  
+}
+.navbar{
+    font-size: 18px;
+    top: 0;
+    left: 0;
+}
+.nav-link:hover{
+    padding: 4px 4px;
+    color: red;
+}
+.navbar i{
+    font-size: 1.2rem;
+    padding: 0 7px;
+    cursor: pointer;
+    margin-top: 14px;
+    transition: 0.3s ease;
+}
+.explore-btn{
+    background-color: rgb(195, 56, 56);
+    border-radius: 50px;
+    border: none;
+    padding: 9px;
+    font-size: 18px;
+    margin-top: -20px;
+    margin-left: 210px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.main-container{
+    background-image: url("../imgs/bg.jpg");
+    width: 100%;
+    height:100vh;
+    background-size: cover; 
+    display:flex ;
+    justify-content: space-between;
+}
+.detail-txt{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-size: 40px;
+    margin-top: 200px;
+    padding: 10px;
+    margin-left: 200px;
+}
+.desc-txt{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: -20px;
+    padding: 10px;
+    margin-left: 200px;
+    color: #2a757f;
+}
+.explore-btn:hover{
+    background-color: rgb(107, 102, 102);
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px 1px #13bfd2;
+}
+.seller-txt{
+    margin-left: 700px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 25px;
+}
+.product{
+    background-color: #F2F4F4;
+    border: 0 solid black;
+    padding: 25px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin: 40px;
+    margin-left: 80px;
+}
+.product img{
+    transition: 0.2s all;
+    width: 220px;
+}
+
+.product:hover img{
+   opacity: 0.7;
+}
+.add-cart-btn{
+    background-color: brown;
+    padding: 5px 22px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 6px;
+    font-size: 17px;
+    align-items: center;
+    margin-top: 20px;
+}
+.add-cart-btn:hover{
+    background-color: #e6aa08;
+    box-shadow: 0 0 4px 1px yellow;
+    transition: 0.5s;
+}
+.p-name{
+    margin-top: 25px;
+}
+.star{
+    margin-top: 20px;
+}
+hr{
+    width: 90px;
+    background-color: rgb(206, 91, 10);
+}
+.product-new{
+    padding: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin: 40px;
+    margin-left: 80px;
+}
+.product-new img{
+    transition: 0.2s all;
+    width: 220px;
+}
+
+.product-new:hover img{
+    opacity: 0.7;
+    
+ }
+.video-preview{
+    width: 100%;
+    height: 80vh;
+}
+.video-heading{
+    margin-left: 340px;
+    font-size: 30px;
+    padding: 10px;
+}
+.customer-reviews-text{
+    margin-left: 550px;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 50px;
+
+}
+.user-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 100px 180px;
+    margin-top: -75px;
+  }
+  .user-card{
+    background-color: #F2F4F4;
+    width: 530px;
+    margin: 20px;
+    padding: 20px 10px;
+    border-radius: 5px;
+    height: 290px;
+    position: relative;
+  }
+  .user-profile{
+    display: block;
+    border-radius: 50%;
+    margin: 5px auto;
+    height: 80px;
+    margin-left: 0;
+  }
+  .user-name{
+    color: black;
+    font-size: 20px;
+    margin: 18px auto;
+    padding: 10px;
+    margin-top: -85px;
+    margin-left: 90px;
+ }
+ .user-name-email{
+    color: black;
+    font-size: 15px;
+    margin: 18px auto;
+    padding: 10px;
+    margin-top: -34px;
+    margin-left: 90px;
+ }
+.review-rating-img
+{
+    margin-top: -240px;
+    margin-left: 350px;
+}
+.review-text{
+    font-size: 18px;
+    margin-top: 50px;
+    
+}
+.rating-star{
+    margin-top: -240px;
+    margin-left: 350px;
+}
+.user-card:hover{
+    background-color: darkgrey;
+    box-shadow: 0 0 3px 1px grey;
+    transition: 0.3s;
+}
+.small-txt{
+    font-weight: bold;
+}
+.footer{
+    background-color: #24262b;
+    padding: 30px 0;
+    margin-top: -50px;
+}
+.container{
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+.row{
+    max-width: 1700px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-col{
+    width: 255px;
+    padding: 0 50px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    width: 110px;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: brown;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #F2F4F4;
+    padding-left: 8px;
+}
+.footersbottom{
+    margin-top: 40px;
+    color: white;
+    margin-left: 590px;
+    font-size: 15px;
+}   
+.footer-col .social-icons:hover{
+   margin-top: 40px;
+}
+.about-text{
+    font-size: 20px;
+}
+.about-txt{
+    margin-top: 30px;
+    margin-right: 900px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.about-img1{
+    flex:1;
+    margin-right: 90px;
+    overflow: hidden;
+    width: 600px;
+    position: relative;
+}
+.about-content{
+    flex: 1;
+   
+}
+.about-img1:hover{
+    opacity: 0.3;
+    padding: 5px; 
+    margin-right: 80px;  
+ }
+ .about-des{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+ }
+.read-more-btn{
+    background-color: green;
+    padding: 7px 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 50px;
+    font-size: 17px;
+    align-items: center;
+    margin-top: 20px;
+} 
+.read-more-btn:hover{
+    background-color: brown;
+    box-shadow: 0 0 4px 1px black;
+    transition: 0.5s;
+}
+.about-services-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.about-card-img{
+    width: 300px;
+}
+.about-subtitile{
+    text-align: justify;
+}
+.about-card{
+   background-color: #e6eeff;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 350px;
+}
+.product-title{
+    margin-top: 50px;
+    text-align: center;
+}
+.shop-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 50px;
+    margin-top: -8px;
+}
+.shop-img{
+    width: 250px;
+    padding: 5px 5px;
+}
+.shop-product-txt{
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.shop-card{
+    background-color: #c3c5cc;
+    width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+}
+.shop-des-txt{
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-left: 80px;
+    font-weight: bold;
+}
+.shop-brand-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.shop-brand-card:hover{
+    border: 2px solid black;
+}
+.contact-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(imgs/c3.jpg);
+    background-size: cover ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contact-container{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #E4E4E4;
+    margin-top: -10px;
+}
+.contact form {
+        width: 600px;
+        text-align: center;
+}
+form .input-box{
+    display: flex;
+    justify-content: space-between;
+    color: #24262b;
+
+}
+.field .item{
+    width: 100%;
+    padding: 18px;
+    background: transparent;
+    border: 3px solid rgb(45, 1, 1);
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 12px 0;
+    color: black;
+}
+.contact-txt{
+    text-align: center;
+}
+.field .item::placeholder{
+    color: rgba(255, 255, 255, 3);
+    color: black;
+}
+.input-box .input-field{
+    width: 48.5%;
+}
+.send-btn{
+    padding: 12px 24px;
+    background-color:teal;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px ;
+    color: #24262b;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+.send-btn:hover{
+    box-shadow: none;
+
+}
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+    background-color: #fff;
+    padding: 60px;
+    margin: 10% auto;
+    width: 500px;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+}
+.your-order-text{
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 35px;
+}
+.cart-img{
+    width: 40px;
+    margin-left: 180px;
+}
+.continue-btn{
+    border: none;
+    background-color: #010813;
+    color: #fff;
+    border-radius: 2px;
+    padding: 15px 40px;
+    margin-left: 75px;
+    font-size: 15px;
+    margin-top: 25px;
+}
+.continue-btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(2, 100, 100);
+    background-color: teal;
+}
+#loginButton{
+    border: none;
+    background: transparent;
+}
+.product-container{
+    width: 100%;
+    padding: 38px;
+    margin: 1px;
+}
+.wrapper{
+    width: 90%;
+    height: 100vh;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.product-detail-text{
+    flex-basis: 45%;
+}
+.all-imgs{
+    height: 80vh;
+    display: flex;
+}
+.smallImgs{
+    display: flex;
+    flex-direction: column;
+}
+.smallImgs img{
+    height: 19vh;
+    margin-bottom: 9px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.smallImgs img :hover{
+    opacity: 1  ;
+}
+.main-img{
+    height: 100%;
+}
+p{
+    margin-bottom: 20px;
+}
+.content{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+}
+.deal-btn{
+    border: none;
+    background-color: brown;
+    font-size: 15px;
+    box-shadow: 0 0 5px black;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin: 18px 1px;
+    color: #ffffff;
+}
+.product-detail-price{
+    font-size: 25px;
+    margin-top: -10px;
+}
+.product-detail-quantity-btn{
+    margin-top: 25px;
+}
+.buy-btn{
+    border: none;
+    background-color: #FD6C00;
+    font-size: 15px;
+    box-shadow: 0 0 5px black;
+    padding: 7px 21px;
+    border-radius: 3px;
+    margin-left: 140px;
+    margin-top: -32px;
+    color: black;
+}
+.buy-btn:hover{
+    background-color: teal;
+    transition: 0.2s;
+}
+.about-product-desc{
+    margin-top: 30px;
+}
